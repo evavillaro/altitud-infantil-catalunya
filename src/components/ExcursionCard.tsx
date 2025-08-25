@@ -64,9 +64,10 @@ export const ExcursionCard = ({ excursion, onRatingUpdate, onAddComment }: Excur
       {excursion.image && (
         <div className="aspect-video relative overflow-hidden">
           <img 
-            src={`/src/assets/${excursion.image}`}
+            src={`/${excursion.image}`}
             alt={`Imagen de ${excursion.name}`}
             className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
         </div>

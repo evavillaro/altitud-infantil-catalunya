@@ -74,7 +74,7 @@ const Index = () => {
       <section 
         className="relative py-16 px-4 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/src/assets/cerdanya-hero.jpg')`
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/cerdanya-hero.jpg')`
         }}
       >
         <div className="max-w-6xl mx-auto text-center">
