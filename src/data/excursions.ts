@@ -11,6 +11,7 @@ export const excursionsData: Excursion[] = [
     description: "Hermoso paseo por el lago artificial más grande de Cataluña. Sendero llano y bien señalizado, perfecto para familias. Los niños pueden disfrutar de las áreas de picnic y observar la fauna local.",
     rating: 4.5,
     totalVotes: 127,
+    image: "lago-bullosa.jpg",
     comments: [
       {
         id: 1,
@@ -38,6 +39,7 @@ export const excursionsData: Excursion[] = [
     description: "Ruta fluvial que sigue el curso del río Segre. Ideal para los más pequeños con múltiples paradas junto al agua. Posibilidad de ver truchas y martines pescadores.",
     rating: 4.2,
     totalVotes: 89,
+    image: "rio-segre.jpg",
     comments: [
       {
         id: 3,
@@ -58,6 +60,7 @@ export const excursionsData: Excursion[] = [
     description: "Excursión a los lagos glaciares del macizo del Carlit. Ruta con algo más de desnivel pero con recompensas paisajísticas increíbles. Recomendable llevar bastones de trekking.",
     rating: 4.8,
     totalVotes: 156,
+    image: "estanys-carlit.jpg",
     comments: [
       {
         id: 4,
@@ -85,6 +88,7 @@ export const excursionsData: Excursion[] = [
     description: "Preciosa ruta que conecta dos pueblos pirenaicos a través de prados alpinos. En primavera, los campos se llenan de flores silvestres. Hay refugios donde parar a descansar.",
     rating: 4.4,
     totalVotes: 98,
+    image: "llo-eyne.jpg",
     comments: [
       {
         id: 6,
@@ -105,6 +109,7 @@ export const excursionsData: Excursion[] = [
     description: "Ruta de montaña para familias con experiencia. Ascensión a 2,810m con vistas panorámicas de toda la Cerdaña. Requiere buen estado físico y equipo de montaña adecuado.",
     rating: 4.7,
     totalVotes: 73,
+    image: "puig-peric.jpg",
     comments: [
       {
         id: 7,
@@ -125,6 +130,7 @@ export const excursionsData: Excursion[] = [
     description: "Paseo por el denso bosque de pinos de Bolvir. Sendero circular muy bien acondicionado con paneles informativos sobre la flora y fauna local. Ideal para introducir a los niños en la naturaleza.",
     rating: 4.1,
     totalVotes: 112,
+    image: "bosque-bolvir.jpg",
     comments: [
       {
         id: 8,

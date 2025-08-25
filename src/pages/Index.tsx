@@ -71,29 +71,34 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative bg-gradient-sky py-16 px-4">
+      <section 
+        className="relative py-16 px-4 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/src/assets/cerdanya-hero.jpg')`
+        }}
+      >
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex justify-center mb-6">
-            <Mountain className="w-16 h-16 text-primary" />
+            <Mountain className="w-16 h-16 text-white" />
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
             Excursiones en la Cerdaña
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-white/90 mb-8 max-w-3xl mx-auto">
             Descubre las mejores rutas familiares entre Girona y Francia. 
             Comparte experiencias, puntúa y comenta tus aventuras montañeras favoritas.
           </p>
           
           <div className="flex flex-wrap justify-center gap-6 text-sm">
-            <div className="flex items-center gap-2 text-muted-foreground">
+            <div className="flex items-center gap-2 text-white/80">
               <Users className="w-5 h-5" />
               <span>Rutas familiares</span>
             </div>
-            <div className="flex items-center gap-2 text-muted-foreground">
+            <div className="flex items-center gap-2 text-white/80">
               <Mountain className="w-5 h-5" />
               <span>Pirineos catalanes</span>
             </div>
-            <div className="flex items-center gap-2 text-muted-foreground">
+            <div className="flex items-center gap-2 text-white/80">
               <Clock className="w-5 h-5" />
               <span>Actualizadas 2024</span>
             </div>
